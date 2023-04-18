@@ -1,5 +1,6 @@
 .footerBlock {
-    min-height: 100vh;
+    height: 120px;
+    /*min-height: 100vh;*/
     background-color: grey;
 
 }
@@ -18,7 +19,7 @@
 }
 .infoBlock {
     border: 1px solid;
-    width: 100%;
+    width: 20%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

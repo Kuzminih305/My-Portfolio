@@ -1,9 +1,8 @@
 .contactsBlock {
-    height: 100vh;
     background-color: #ec9a9a;
 }
 .contactsContainer {
-    align-items: center;
+
     flex-direction: column;
     justify-content: flex-start;
 
@@ -13,12 +12,15 @@
 }
 
 .formBlock {
-    width: 250px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+}
+.contactsBlock input, .contactsBlock textarea {
+    width: 100%;
 }
 .btnContacts {
-    margin-top: 10px;
+    padding: 10px 20px;
+
 }
